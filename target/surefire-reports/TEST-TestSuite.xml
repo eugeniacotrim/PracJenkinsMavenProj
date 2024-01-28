@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.077" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.779" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\eugen\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\eugen\AppData\Local\Temp\surefire8518652161247879026\surefirebooter-20240127085410862_3.jar C:\Users\eugen\AppData\Local\Temp\surefire8518652161247879026 2024-01-27T08-54-10_620-jvmRun1 surefire-20240127085410862_1tmp surefire_0-20240127085410862_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\eugen\AppData\Local\Temp\surefire15502604273901110835\surefirebooter-20240128055956538_3.jar C:\Users\eugen\AppData\Local\Temp\surefire15502604273901110835 2024-01-28T05-59-56_256-jvmRun1 surefire-20240128055956538_1tmp surefire_0-20240128055956538_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\eugen\eclipse-workspace\PracJenkins_Maven\target\test-classes;C:\Users\eugen\eclipse-workspace\PracJenkins_Maven\target\classes;C:\Users\eugen\.m2\repository\org\testng\testng\6.9.8\testng-6.9.8.jar;C:\Users\eugen\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\eugen\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\eugen\AppData\Local\Temp\surefire8518652161247879026\surefirebooter-20240127085410862_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\eugen\AppData\Local\Temp\surefire15502604273901110835\surefirebooter-20240128055956538_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8+7"/>
@@ -58,8 +58,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testAdd" classname="com.test.Addition" time="0.012">
-    <system-out><![CDATA[Sum is: 9
+  <testcase name="testAdd" classname="com.test.Addition" time="0.019">
+    <system-out><![CDATA[Sum is: 30
 ]]></system-out>
   </testcase>
 </testsuite>

@@ -2,12 +2,12 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-27T16:54:12Z" name="PracSuite" finished-at="2024-01-27T16:54:12Z" duration-ms="18">
+  <suite started-at="2024-01-28T13:59:59Z" name="PracSuite" finished-at="2024-01-28T13:59:59Z" duration-ms="27">
     <groups>
     </groups>
-    <test started-at="2024-01-27T16:54:12Z" name="PracTest" finished-at="2024-01-27T16:54:12Z" duration-ms="18">
+    <test started-at="2024-01-28T13:59:59Z" name="PracTest" finished-at="2024-01-28T13:59:59Z" duration-ms="27">
       <class name="com.test.Addition">
-        <test-method signature="testAdd()[pri:0, instance:com.test.Addition@20435c40]" started-at="2024-01-27T08:54:12Z" name="testAdd" finished-at="2024-01-27T08:54:12Z" duration-ms="9" status="PASS">
+        <test-method signature="testAdd()[pri:0, instance:com.test.Addition@20435c40]" started-at="2024-01-28T05:59:59Z" name="testAdd" finished-at="2024-01-28T05:59:59Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdd -->
