@@ -2,6 +2,8 @@ pipeline{
 	agent {
 		docker{
 			image 'maven:latest'
+			args '-v $HOME/.m2:/root/.m2:z -u root'
+            reuseNode true
 		}
 	}
 
@@ -12,21 +14,20 @@ pipeline{
 	
 	stages{
 		stage('build'){
-		steps{
-			sh ''' 
-				echo "This is Build with version as ${VERSION} and release as ${REL_VER}"
-				java -version
-				ls	
-			'''
+			steps{
+				sh ''' 
+					echo "This is Build with version as ${VERSION} and release as ${REL_VER}"
+					java -version
+					ls
+					mvn clean test
+				'''
+			}
 		}
-	}
 
-		stage(‘test’){
+		stage('test'){
 			steps{
 				sh ''' 
 					echo "This is Test with version as ${VERSION} and release as ${REL_VER}"
-					java -version
-					ls	
 				'''
 			}
 		}
